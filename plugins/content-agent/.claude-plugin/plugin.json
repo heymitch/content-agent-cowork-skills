@@ -1,7 +1,25 @@
 {
   "name": "content-agent",
-  "version": "1.0.0",
-  "description": "Voice-matched content creation across 14 platforms. 4 agents, 50 commands, 15 skills.",
+  "version": "2.0.0",
+  "description": "AI Content Agent — 15 skills, 43 commands, 127 anti-AI-detection rules.",
+  "skills": [
+    "skills/linkedin-writer",
+    "skills/twitter-writer",
+    "skills/email-writer",
+    "skills/video-writer",
+    "skills/instagram-writer",
+    "skills/bluesky-writer",
+    "skills/batch",
+    "skills/image-generator",
+    "skills/voice-training",
+    "skills/business-blueprint",
+    "skills/quality-pipeline",
+    "skills/training-manager",
+    "skills/content-analytics",
+    "skills/meeting-connector",
+    "skills/ayrshare-publishing"
+  ],
+  "entrypoint": "skills/batch",
   "author": {
     "name": "Mitch Harris & Nicolas Cole",
     "url": "https://github.com/heymitch"
