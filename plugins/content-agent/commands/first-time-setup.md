@@ -87,37 +87,31 @@ Save checked platforms to config.md → `## Content Preferences` → `### Active
 
 ## Step 4: Connect Your Content Calendar (Notion)
 
-After content preferences, actively encourage Notion connection:
+After content preferences, set up their content command center:
 
-"Now let's set up your content command center. Notion is where all your content lives — every draft, edit, and published post flows through a single Content Calendar.
+"Now let's set up where all your content lives. We use a Notion Content Calendar — every draft, edit, and published post flows through it.
 
-**Here's what connecting Notion gives you:**
+**Here's what it gives you:**
 - All generated content auto-saves to your Content Calendar
 - Status pipeline: Draft → Edit With AI → Ready → Publish It → Published
 - Check 'Add to Training' on your best posts and I learn your voice over time
-- Performance tracking with engagement metrics right in the calendar
+- Performance tracking with engagement metrics right in the calendar"
 
-**To get started:** Make sure Notion is connected in your Cowork settings (Settings → Connectors → Notion). If you have the ACA Content Calendar Template, duplicate it to your workspace first."
+### Setup Flow
 
-### Auto-Detect Content Calendar
+1. **Add the Notion connector** — In Cowork, go to your connectors and add Notion
+2. **Duplicate the template** — Your instructor will share the ACA Content Calendar Template in the course. Duplicate it to your Notion workspace.
+3. **Paste the URL** — Copy the URL of your duplicated Content Calendar database and paste it here.
 
-Check for Notion MCP tools:
+When the user pastes the Notion database URL:
+- Fetch the database with `notion-fetch` to confirm it has the expected columns (Hook, Content, Platform, Status, Publish Date, Tags, Add to Training)
+- Save the database URL to config.md under `## Notion` → `content_calendar_db: [url]`
+- Save the data source URL (collection:// URL from fetch results) to config.md under `content_calendar_datasource: [collection-url]`
+- Update `- [x] Notion connected` in config.md
+- Say: "Content Calendar connected! I'll save all content there automatically."
 
-**If Notion is connected:**
-1. Use `notion-search` to find a database named "Content Calendar" in the user's workspace
-2. **If found:** Fetch the database with `notion-fetch` to confirm it has the expected columns (Hook, Content, Platform, Status, etc.)
-   - Save the database URL to config.md under `## Notion` → `content_calendar_db: [database-url]`
-   - Save the data source URL (collection:// URL) to config.md under `content_calendar_datasource: [collection-url]`
-   - Say: "Found your Content Calendar! I'll save all content there automatically."
-   - Update `- [x] Notion connected` in config.md
-3. **If not found:** Say: "Notion is connected but I couldn't find a 'Content Calendar' database. You can either:
-   - Create a database called 'Content Calendar' with the columns listed in the setup guide
-   - Or just tell me the name of the database you want to use for content"
-   - If they provide a name, search again and save the reference
-   - Update `- [x] Notion connected` in config.md
-
-**If Notion is not connected:**
-"Notion isn't connected yet — no rush. You can connect it anytime in Settings → Connectors. The content agent works great standalone — content saves to local files and you can push to Notion later."
+**If they don't have Notion or want to skip:**
+"No problem — the content agent works great standalone. Content saves to local files. You can connect Notion anytime later."
 
 ---
 

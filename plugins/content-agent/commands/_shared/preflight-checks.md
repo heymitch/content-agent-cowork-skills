@@ -14,9 +14,9 @@ Check config.md for `- [x] Voice Training completed`.
 ### 3. Notion Check (Silent)
 Check for Notion MCP tools in your available tools.
 - If found:
-  - Read config.md for `content_calendar_datasource` under `## Notion`
-  - If datasource URL exists: Will save to Notion Content Calendar after local save
-  - If no datasource URL: Search for "Content Calendar" database via `notion-search`, save reference to config.md
+  - Read config.md for `content_calendar_db` and `content_calendar_datasource` under `## Notion`
+  - If URLs exist: Will save to Notion Content Calendar after local save using `notion-create-pages` with the stored data source
+  - If no URLs stored: Ask user to paste their Content Calendar database URL. Fetch it, save both URLs to config.md.
   - Update `- [x] Notion connected` in config.md if unchecked
 - If not found: Save locally to `content/` directory. Don't mention Notion.
 
