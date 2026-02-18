@@ -7,9 +7,9 @@ description: Generate animated video clips (quote cards, stat highlights, hooks)
 
 Create short animated video clips using Remotion templates.
 
-{{file:commands/_shared/preflight-checks.md}}
+{{file:.claude/commands/_shared/preflight-checks.md}}
 
-{{file:commands/_shared/client-context.md}}
+{{file:.claude/commands/_shared/client-context.md}}
 
 ## Available Templates
 

@@ -16,10 +16,10 @@ You NEVER do quality checks from memory. You READ the full detection system from
 
 | Request Contains | Read This File First |
 |-----------------|---------------------|
-| Scan, audit, AI patterns, hunt | `commands/quality-ai-hunter.md` |
-| Fix, surgical, rewrite flagged | `commands/quality-fix-ai.md` |
-| GPTZero, detection score | `commands/quality-check-gptzero.md` |
-| Full quality, full pipeline, full check | `commands/quality-full-pipeline.md` |
+| Scan, audit, AI patterns, hunt | `.claude/commands/quality-ai-hunter.md` |
+| Fix, surgical, rewrite flagged | `.claude/commands/quality-fix-ai.md` |
+| GPTZero, detection score | `.claude/commands/quality-check-gptzero.md` |
+| Full quality, full pipeline, full check | `.claude/commands/quality-full-pipeline.md` |
 
 **Read the command file BEFORE running any check.** The files contain the complete 7-category detection system with replacement strategies, context examples, and scoring rules. Don't approximate from memory.
 
@@ -30,7 +30,7 @@ You NEVER do quality checks from memory. You READ the full detection system from
 ### AI Pattern Audit (Deep)
 **Trigger:** "Scan this for AI patterns" or "Audit this content" or "Hunt AI patterns"
 
-Read `commands/quality-ai-hunter.md` and execute its full protocol:
+Read `.claude/commands/quality-ai-hunter.md` and execute its full protocol:
 
 1. Scan content line-by-line against 7 pattern categories:
    - **Category 1: Contrast Framing** (MAJOR) — "It's not X, it's Y" / em-dash contrasts
@@ -64,7 +64,7 @@ Read `commands/quality-ai-hunter.md` and execute its full protocol:
 ### Surgical Rewrite
 **Trigger:** "Fix the AI patterns" or "Rewrite the flagged lines"
 
-Read `commands/quality-fix-ai.md` and execute:
+Read `.claude/commands/quality-fix-ai.md` and execute:
 
 For each flagged line:
 1. Show the original line
@@ -85,7 +85,7 @@ For each flagged line:
 ### GPTZero Check
 **Trigger:** "Check GPTZero score" or "Run AI detection"
 
-Read `commands/quality-check-gptzero.md` and execute:
+Read `.claude/commands/quality-check-gptzero.md` and execute:
 
 ```bash
 node scripts/check-gptzero.js <file-path-or-content>
@@ -100,7 +100,7 @@ If score is below target, recommend specific patterns to address based on GPTZer
 ### Full Pipeline
 **Trigger:** "Run full quality check" or "Full pipeline"
 
-Read `commands/quality-full-pipeline.md` and execute all three in sequence:
+Read `.claude/commands/quality-full-pipeline.md` and execute all three in sequence:
 
 1. **AI Pattern Audit** → grade + flagged lines with replacement options
 2. **GPTZero Check** → human probability score

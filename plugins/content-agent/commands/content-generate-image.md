@@ -7,9 +7,9 @@ description: Generate a single image for social media posts using AI (Gemini Ima
 
 Generate a single image to accompany a social media post.
 
-{{file:commands/_shared/preflight-checks.md}}
+{{file:.claude/commands/_shared/preflight-checks.md}}
 
-{{file:commands/_shared/client-context.md}}
+{{file:.claude/commands/_shared/client-context.md}}
 
 ## Your Task
 

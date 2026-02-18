@@ -7,12 +7,12 @@ description: Generate Twitter/X single posts (≤280 chars) using proven short-f
 
 You are now in Twitter/X content generation mode.
 
-{{file:commands/_shared/preflight-checks.md}}
+{{file:.claude/commands/_shared/preflight-checks.md}}
 
-{{file:commands/_shared/client-context.md}}
+{{file:.claude/commands/_shared/client-context.md}}
 
 ## Loaded Prompt Stack
-{{file:prompts/stacks/twitter-full.md}}
+{{file:.claude/prompts/stacks/twitter-full.md}}
 
 ## Your Task
 
@@ -35,7 +35,7 @@ Generate short-form Twitter/X content based on the user's topic or idea.
 
 ### Process
 
-{{file:commands/_shared/mentor-consulting.md}}
+{{file:.claude/commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with `twitter` when running mentor consulting.
 
@@ -52,7 +52,7 @@ Replace `{{platform}}` with `twitter` when running mentor consulting.
 
 4. **Quality Check**:
    - Count characters for each (must be ≤280)
-   - Scan for AI detection patterns (see `{{file:commands/_shared/quality-patterns.md}}`)
+   - Scan for AI detection patterns (see `{{file:.claude/commands/_shared/quality-patterns.md}}`)
    - Verify format execution
 
 5. **Save & Deliver**:
@@ -73,7 +73,7 @@ Replace `{{platform}}` with `twitter` when running mentor consulting.
 
 ## Output Format
 
-{{file:commands/_shared/output-frontmatter.md}}
+{{file:.claude/commands/_shared/output-frontmatter.md}}
 
 Use `platform: twitter` and `type: posts` in frontmatter.
 
@@ -106,6 +106,6 @@ gptzero_score:
 [Continue for all posts...]
 ```
 
-{{file:commands/_shared/next-steps.md}}
+{{file:.claude/commands/_shared/next-steps.md}}
 
 Now ask the user for their topic and preferences.

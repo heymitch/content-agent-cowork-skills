@@ -18,7 +18,7 @@ Scan content line-by-line for AI detection patterns and provide:
 ## AI Detection Patterns
 
 Reference the shared pattern definitions:
-{{file:commands/_shared/quality-patterns.md}}
+{{file:.claude/commands/_shared/quality-patterns.md}}
 
 ### Scoring by Severity
 

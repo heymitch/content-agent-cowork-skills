@@ -7,9 +7,9 @@ description: Plan and generate a full week of content with research, context gat
 
 Plan and generate a full week of content with **parallel execution** for speed.
 
-{{file:commands/_shared/preflight-checks.md}}
+{{file:.claude/commands/_shared/preflight-checks.md}}
 
-{{file:commands/_shared/client-context.md}}
+{{file:.claude/commands/_shared/client-context.md}}
 
 ## Full Volume Targets (from config.md)
 

@@ -1,11 +1,11 @@
 # Video Short Content Generation - Full Stack
 
-{{file:prompts/base/system-core.md}}
+{{file:.claude/prompts/base/system-core.md}}
 
-{{file:prompts/brand/brand-identity.md}}
+{{file:.claude/prompts/brand/brand-identity.md}}
 
-{{file:prompts/brand/writing-rules-no-ai.md}}
+{{file:.claude/prompts/brand/writing-rules-no-ai.md}}
 
-{{file:prompts/brand/banned-words.md}}
+{{file:.claude/prompts/brand/banned-words.md}}
 
-{{file:prompts/platform/video-short.md}}
+{{file:.claude/prompts/platform/video-short.md}}

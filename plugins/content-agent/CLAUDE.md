@@ -41,17 +41,17 @@ When asked to scan, check, or fix content quality:
 
 | Request Contains | Read This File First |
 |-----------------|---------------------|
-| Scan, audit, AI patterns | `commands/quality-ai-hunter.md` |
-| Fix, surgical | `commands/quality-fix-ai.md` |
-| GPTZero | `commands/quality-check-gptzero.md` |
-| Full quality, full pipeline | `commands/quality-full-pipeline.md` |
+| Scan, audit, AI patterns | `.claude/commands/quality-ai-hunter.md` |
+| Fix, surgical | `.claude/commands/quality-fix-ai.md` |
+| GPTZero | `.claude/commands/quality-check-gptzero.md` |
+| Full quality, full pipeline | `.claude/commands/quality-full-pipeline.md` |
 
 Always read the file. Never do quality checks from memory — the files contain the complete detection system.
 
 ### Setup Protocol
 
 When running first-time setup or business blueprint:
-- Read `commands/first-time-setup.md` or `commands/setup-business-blueprint.md`
+- Read `.claude/commands/first-time-setup.md` or `.claude/commands/setup-business-blueprint.md`
 - Ask questions ONE AT A TIME in conversation. Do NOT batch questions into AskUserQuestion multi-select dropdowns. The interview should feel like a conversation, not a form.
 
 ### What I NEVER Do

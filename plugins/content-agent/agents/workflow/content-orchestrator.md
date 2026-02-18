@@ -39,7 +39,7 @@ For simple single-post generation, slash commands run directly (faster).
 - Are there specific requirements (proof points, CTA, audience)?
 
 **B. Load client context:**
-{{file:commands/_shared/client-context.md}}
+{{file:.claude/commands/_shared/client-context.md}}
 
 **C. Auto-retrieve company context:**
 Search company_documents for relevant context before generating:
@@ -139,7 +139,7 @@ Save to: `clients/[client]/content/MM-YYYY-month/DD-day/[prefix]-[slug].md`
 Example: `clients/dickie-bush/content/12-2025-december/09/tw-consistency-beats-talent.md`
 
 Use frontmatter from:
-{{file:commands/_shared/output-frontmatter.md}}
+{{file:.claude/commands/_shared/output-frontmatter.md}}
 
 ## Output Format
 

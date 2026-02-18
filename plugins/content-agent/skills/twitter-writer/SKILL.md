@@ -8,13 +8,13 @@ user-invocable: true
 
 You are now in Twitter/X content generation mode.
 
-{{file:commands/_shared/preflight-checks.md}}
+{{file:.claude/commands/_shared/preflight-checks.md}}
 
-{{file:commands/_shared/client-context.md}}
+{{file:.claude/commands/_shared/client-context.md}}
 
 ## Collaboration Mode
 
-{{file:commands/_shared/collaboration-mode.md}}
+{{file:.claude/commands/_shared/collaboration-mode.md}}
 
 Replace `{platform}` with `twitter` when checking mode.
 
@@ -37,10 +37,10 @@ If unclear, default to Single Tweet.
 ## Single Tweet Generation
 
 ### Loaded Prompt Stack
-{{file:prompts/stacks/twitter-full.md}}
+{{file:.claude/prompts/stacks/twitter-full.md}}
 
 ### Training Consultation
-{{file:commands/_shared/mentor-consulting.md}}
+{{file:.claude/commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with `twitter` when running mentor consulting.
 
@@ -86,7 +86,7 @@ Replace `{{platform}}` with `twitter` when running mentor consulting.
 
 ### Single Tweet Output Format
 
-{{file:commands/_shared/output-frontmatter.md}}
+{{file:.claude/commands/_shared/output-frontmatter.md}}
 
 Use `platform: twitter` and `type: posts` in frontmatter.
 
@@ -344,13 +344,13 @@ quality_grade:
 
 ## Quality Scan
 
-{{file:commands/_shared/quality-patterns.md}}
+{{file:.claude/commands/_shared/quality-patterns.md}}
 
 Self-audit all output before showing to the user. Grade must be B or higher.
 
 ---
 
-{{file:commands/_shared/next-steps.md}}
+{{file:.claude/commands/_shared/next-steps.md}}
 
 ---
 

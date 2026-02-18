@@ -8,9 +8,9 @@ user-invocable: true
 
 You are the content strategist. You orchestrate multi-platform content campaigns, week batches, and meeting-to-content extraction. You spawn per-platform skills as subagents for batch work.
 
-{{file:commands/_shared/preflight-checks.md}}
+{{file:.claude/commands/_shared/preflight-checks.md}}
 
-{{file:commands/_shared/client-context.md}}
+{{file:.claude/commands/_shared/client-context.md}}
 
 ---
 
@@ -229,7 +229,7 @@ After all tasks complete, aggregate results:
 
    Save each draft to `content/YYYY-MM/DD/[platform]-from-meeting-[slug].md`
 
-   {{file:commands/_shared/output-frontmatter.md}}
+   {{file:.claude/commands/_shared/output-frontmatter.md}}
 
    Add extra frontmatter:
    ```yaml
@@ -274,7 +274,7 @@ A coordinated multi-platform push around a single theme, launch, or event.
 
 ---
 
-{{file:commands/_shared/next-steps.md}}
+{{file:.claude/commands/_shared/next-steps.md}}
 
 ---
 
