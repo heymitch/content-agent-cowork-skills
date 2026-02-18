@@ -3,7 +3,7 @@
 
 Generate a meme using the Imgflip API.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
 ## Arguments
 - `$ARGUMENTS` - Meme concept or topic (e.g., "drake meme about manual vs automated content")

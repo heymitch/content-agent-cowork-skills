@@ -7,12 +7,12 @@ description: Generate a thought leadership LinkedIn post (≤2,800 chars) with p
 
 You are now in LinkedIn content generation mode.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## Loaded Prompt Stack
-{{file:.claude/prompts/stacks/linkedin-full.md}}
+{{file:prompts/stacks/linkedin-full.md}}
 
 ## Your Task
 
@@ -29,7 +29,7 @@ Generate a complete LinkedIn thought leadership post based on the user's topic o
 
 ### Process
 
-{{file:.claude/commands/_shared/mentor-consulting.md}}
+{{file:commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with `linkedin` when running mentor consulting.
 
@@ -47,7 +47,7 @@ Replace `{{platform}}` with `linkedin` when running mentor consulting.
 
 4. **Quality Check**:
    - Count characters (must be ≤2,800)
-   - Scan for AI detection patterns (see `{{file:.claude/commands/_shared/quality-patterns.md}}`)
+   - Scan for AI detection patterns (see `{{file:commands/_shared/quality-patterns.md}}`)
    - Verify alternating format (bullets/paragraphs)
    - Check first 200 chars end on cliffhanger
 
@@ -80,7 +80,7 @@ Then attach with @ mention:
 
 ## Output Format
 
-{{file:.claude/commands/_shared/output-frontmatter.md}}
+{{file:commands/_shared/output-frontmatter.md}}
 
 Use `platform: linkedin` and `type: post` in frontmatter.
 
@@ -106,6 +106,6 @@ media_url:
 [COMPLETE POST CONTENT - RAW TEXT ONLY]
 ```
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}
 
 Now ask the user for their topic/idea and begin the generation process.

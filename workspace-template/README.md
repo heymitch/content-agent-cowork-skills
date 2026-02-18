@@ -2,6 +2,8 @@
 
 This is your content workspace. It stores your training data, generated content, and custom prompts.
 
+Download this workspace from Notion (link provided in your cohort materials).
+
 ## Setup
 
 1. **Install the content agent plugin:**

@@ -7,12 +7,12 @@ description: Generate Bluesky posts (≤300 chars) using proven short-form forma
 
 You are now in Bluesky content generation mode.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## Loaded Prompt Stack
-{{file:.claude/prompts/stacks/bluesky-full.md}}
+{{file:prompts/stacks/bluesky-full.md}}
 
 ## Your Task
 
@@ -28,7 +28,7 @@ Generate a Bluesky post or thread based on the user's topic or idea.
 
 ### Process
 
-{{file:.claude/commands/_shared/mentor-consulting.md}}
+{{file:commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with `bluesky` when running mentor consulting.
 
@@ -45,7 +45,7 @@ Replace `{{platform}}` with `bluesky` when running mentor consulting.
 
 4. **Quality Check**:
    - Count characters (must be ≤300 per post)
-   - Scan for AI detection patterns (see `{{file:.claude/commands/_shared/quality-patterns.md}}`)
+   - Scan for AI detection patterns (see `{{file:commands/_shared/quality-patterns.md}}`)
    - Verify thread flow if applicable
 
 5. **Save & Deliver**:
@@ -62,7 +62,7 @@ Replace `{{platform}}` with `bluesky` when running mentor consulting.
 
 ## Output Format
 
-{{file:.claude/commands/_shared/output-frontmatter.md}}
+{{file:commands/_shared/output-frontmatter.md}}
 
 Use `platform: bluesky` and `type: post` or `type: thread` in frontmatter.
 
@@ -97,6 +97,6 @@ For threads, separate posts with `---`:
 3/ Final post with CTA
 ```
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}
 
 Now ask the user for their topic/idea and begin the generation process.

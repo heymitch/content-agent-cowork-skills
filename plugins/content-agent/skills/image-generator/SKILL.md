@@ -8,9 +8,9 @@ user-invocable: true
 
 Generate visual content for social media posts — AI images and memes.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ---
 

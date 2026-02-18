@@ -7,12 +7,12 @@ description: Generate an Instagram caption (≤2,200 chars) optimized for mobile
 
 You are now in Instagram content generation mode.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## Loaded Prompt Stack
-{{file:.claude/prompts/stacks/instagram-full.md}}
+{{file:prompts/stacks/instagram-full.md}}
 
 ## Your Task
 
@@ -29,7 +29,7 @@ Generate a complete Instagram caption based on the user's topic or idea.
 
 ### Process
 
-{{file:.claude/commands/_shared/mentor-consulting.md}}
+{{file:commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with `instagram` when running mentor consulting.
 
@@ -47,7 +47,7 @@ Replace `{{platform}}` with `instagram` when running mentor consulting.
 
 4. **Quality Check**:
    - Count characters (must be ≤2,200 including hashtags)
-   - Scan for AI detection patterns (see `{{file:.claude/commands/_shared/quality-patterns.md}}`)
+   - Scan for AI detection patterns (see `{{file:commands/_shared/quality-patterns.md}}`)
    - Verify mobile-friendly formatting
    - Check first 125 chars end on cliffhanger
 
@@ -80,7 +80,7 @@ Then attach with @ mention:
 
 ## Output Format
 
-{{file:.claude/commands/_shared/output-frontmatter.md}}
+{{file:commands/_shared/output-frontmatter.md}}
 
 Use `platform: instagram` and `type: caption` in frontmatter.
 
@@ -106,6 +106,6 @@ media_url:
 [COMPLETE CAPTION CONTENT - RAW TEXT WITH LINE BREAKS AND HASHTAGS]
 ```
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}
 
 Now ask the user for their topic/idea and begin the generation process.

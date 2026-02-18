@@ -7,9 +7,9 @@ description: Generate a daily batch of 10 Twitter/X singles (shitposts, hot take
 
 Generate a daily batch of 10 Twitter singles for high-volume posting.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## What This Is
 
@@ -237,4 +237,4 @@ Generates batch for specific date.
 **Engagement:**
 > what's one process you'd never automate, even if you could?
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}

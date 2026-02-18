@@ -45,14 +45,7 @@ The result: content that sounds like you wrote it, not like AI generated it.
 
 ## Workspace Setup
 
-New users should clone the workspace template to set up their content workspace:
-
-```bash
-cp -R workspace-template/ ~/my-content-workspace/
-cd ~/my-content-workspace/
-```
-
-Then install the plugin and run the business blueprint.
+Download the workspace template from Notion (link provided in your cohort materials), then install the plugin and run the business blueprint.
 
 ## Philosophy
 

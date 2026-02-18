@@ -7,9 +7,9 @@ description: Extract insights from a meeting transcript and generate content ide
 
 Turn meetings into content. This is the "always ready employee" behavior — your conversations become posts automatically.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## How to Run
 
@@ -79,7 +79,7 @@ Present 3-5 content ideas based on extracted material:
 
 Ask the user which ideas to develop, then:
 
-{{file:.claude/commands/_shared/mentor-consulting.md}}
+{{file:commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with the chosen platform.
 
@@ -93,14 +93,14 @@ Generate full drafts using:
 
 Save each draft to `content/YYYY-MM/DD/[platform]-from-meeting-[slug].md`
 
-{{file:.claude/commands/_shared/output-frontmatter.md}}
+{{file:commands/_shared/output-frontmatter.md}}
 
 Add extra frontmatter:
 ```yaml
 source_meeting: "[meeting title or date]"
 ```
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}
 
 ## Quality Notes
 
