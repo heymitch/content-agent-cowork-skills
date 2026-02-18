@@ -81,7 +81,7 @@ fileClass: content
 title: [Title]
 platform: bluesky
 type: post
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - tag1
@@ -100,7 +100,7 @@ fileClass: content
 title: [Title]
 platform: bluesky
 type: thread
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - tag1

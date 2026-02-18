@@ -63,7 +63,7 @@ fileClass: content
 title: Post Title Here
 platform: linkedin
 type: post
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - tag1
@@ -79,7 +79,7 @@ gptzero_score:
 
 **Key rules:**
 - `fileClass: content` is required for Obsidian Projects
-- `Publish_Date` is the calendar date field (not `date`)
+- `Publish Date` is the calendar date field (not `date`)
 - No quotes around values unless they contain special characters
 - Tags as YAML list, not inline array
 - Body is raw post content only — no markdown headers or metadata sections
@@ -181,7 +181,7 @@ When generating content, provide:
 ## Next Steps
 1. Run /quality:audit-ai-detection
 2. Review for brand voice consistency
-3. Change status to "Publish it!" when ready
+3. Change status to "Publish It" when ready
 ```
 
 ## Workflow for Content Generation

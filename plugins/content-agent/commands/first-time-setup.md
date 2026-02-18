@@ -85,22 +85,52 @@ Save checked platforms to config.md → `## Content Preferences` → `### Active
 
 ---
 
-## Step 4: Connector Check
+## Step 4: Connect Your Content Calendar (Notion)
 
-After voice training, silently check what's available:
+After content preferences, actively encourage Notion connection:
 
-**Check for each (all are optional — skip any that aren't found):**
-- Notion MCP tools → update `- [x] Notion connected` in config.md
-- Fireflies MCP tools → update `- [x] Fireflies connected` in config.md
-- Gamma API key in .env → update `- [x] Gamma connected` in config.md
-- Ayrshare API key in .env → update `- [x] Ayrshare connected` in config.md
-- GPTZero API key in .env → update `- [x] GPTZero connected` in config.md
+"Now let's set up your content command center. Notion is where all your content lives — every draft, edit, and published post flows through a single Content Calendar.
 
-Report what's connected (if anything):
-"Here's what I found connected: [list]. Everything else is optional — the agent works great standalone. You can connect more tools anytime."
+**Here's what connecting Notion gives you:**
+- All generated content auto-saves to your Content Calendar
+- Status pipeline: Draft → Edit With AI → Ready → Publish It → Published
+- Check 'Add to Training' on your best posts and I learn your voice over time
+- Performance tracking with engagement metrics right in the calendar
 
-If nothing is connected:
-"No external tools connected — and that's totally fine. The content agent works standalone. You can optionally connect Notion, Ayrshare, or other tools later for bonus features."
+**To get started:** Make sure Notion is connected in your Cowork settings (Settings → Connectors → Notion). If you have the ACA Content Calendar Template, duplicate it to your workspace first."
+
+### Auto-Detect Content Calendar
+
+Check for Notion MCP tools:
+
+**If Notion is connected:**
+1. Use `notion-search` to find a database named "Content Calendar" in the user's workspace
+2. **If found:** Fetch the database with `notion-fetch` to confirm it has the expected columns (Hook, Content, Platform, Status, etc.)
+   - Save the database URL to config.md under `## Notion` → `content_calendar_db: [database-url]`
+   - Save the data source URL (collection:// URL) to config.md under `content_calendar_datasource: [collection-url]`
+   - Say: "Found your Content Calendar! I'll save all content there automatically."
+   - Update `- [x] Notion connected` in config.md
+3. **If not found:** Say: "Notion is connected but I couldn't find a 'Content Calendar' database. You can either:
+   - Create a database called 'Content Calendar' with the columns listed in the setup guide
+   - Or just tell me the name of the database you want to use for content"
+   - If they provide a name, search again and save the reference
+   - Update `- [x] Notion connected` in config.md
+
+**If Notion is not connected:**
+"Notion isn't connected yet — no rush. You can connect it anytime in Settings → Connectors. The content agent works great standalone — content saves to local files and you can push to Notion later."
+
+---
+
+## Step 4.5: Other Connectors (Optional)
+
+Silently check for bonus tools (all are optional — skip any that aren't found):
+- Fireflies MCP tools → update `- [x] Fireflies connected` in config.md (meetings → content)
+- Gamma API key in .env → update `- [x] Gamma connected` in config.md (carousel generation)
+- Ayrshare API key in .env → update `- [x] Ayrshare connected` in config.md (auto-publishing)
+- GPTZero API key in .env → update `- [x] GPTZero connected` in config.md (AI detection scoring)
+
+If any found: "I also found these connected: [list]. Nice — that unlocks [brief benefit per tool]."
+If none found beyond Notion: "No other tools connected — that's fine. You can add Fireflies (meetings→content), Gamma (carousels), Ayrshare (auto-publish), or GPTZero (AI scoring) anytime."
 
 ---
 

@@ -141,7 +141,7 @@ title: [Carousel Title]
 platform: linkedin
 type: carousel
 slides: [number]
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 gamma_url: [URL from Gamma response]
 gamma_export: [PDF/PPTX URL if available]

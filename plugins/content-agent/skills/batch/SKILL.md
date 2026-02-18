@@ -154,7 +154,7 @@ After all tasks complete, aggregate results:
 1. Review LinkedIn/threads for personal touches
 2. Run quality pipeline on any scoring below B
 3. Spot-check Twitter singles for voice consistency
-4. Change status to "Publish it!" when ready
+4. Change status to "Publish It" when ready
 
 ---
 

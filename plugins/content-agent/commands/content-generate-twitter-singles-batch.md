@@ -85,7 +85,7 @@ fileClass: content
 title: Twitter Singles - [Date]
 platform: twitter
 type: singles-batch
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - [theme-tag]

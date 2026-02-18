@@ -278,16 +278,26 @@ These scream "AI wrote this":
 
 Notion connects via Cowork. No API keys needed from you.
 
-**Your Content Database should have:**
+During first-time-setup, the agent auto-detects your Content Calendar database in Notion via search. The expected database columns:
+
 | Property | Type | Purpose |
 |----------|------|---------|
-| Title | Title | Post title/slug |
-| Content | Text | The actual post |
-| Platform | Select | LinkedIn, Twitter, Email |
-| Status | Select | Draft → Review → Approved → Published |
-| Add to Training | Checkbox | Flag winners for training |
+| Hook | Title | Post's opening hook / headline |
+| Content | Text | The actual post body |
+| Platform | Select | LinkedIn, X/Twitter, Instagram, Email, Bluesky, YouTube, TikTok, Substack, Facebook |
+| Status | Select | Not started → Draft → Edit With AI → Ready → Publish It → Published |
+| Publish Date | Date | Scheduled publish date |
+| Tags | Multi-select | AI, Leadership, Strategy, Personal (extensible) |
+| Add to Training | Checkbox | Flag winners for voice training |
+| AI Suggested Edits | Text | Quality scan results |
+| Published URL | URL | Live post link after publishing |
+| Caption (YouTube) | Text | YouTube description text |
+| Files & media | File | Attached images, videos |
+| Analytics | Numbers | Impressions, Engagements, Clicks, Likes, Comments, Shares, Engagement Rate |
 
-When you approve a post and check "Add to Training," run "Sync my training" to pull it back — that's how I learn your voice over time.
+**Status pipeline:** Content generates as "Draft" → you review and mark "Ready" or "Edit With AI" for another pass → "Publish It" triggers Ayrshare auto-publish → "Published" after live.
+
+When you check "Add to Training" on your best posts, run "Sync my training" to pull them back — that's how I learn your voice over time.
 
 ---
 

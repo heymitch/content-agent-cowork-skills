@@ -17,13 +17,13 @@ Read `.env` and check for `AYRSHARE_API_KEY`.
 - **If found:** Continue. Update config.md `- [x] Ayrshare connected` if not already checked.
 
 ### 2. Check content status
-Content must have `status: "Publish it!"` in frontmatter.
+Content must have `status: "Publish It"` in frontmatter.
 - If status is anything else, inform user and show how to update.
 
 ## Process
 
 1. **Receive content** — file path or most recently generated content
-2. **Verify status** — must be "Publish it!"
+2. **Verify status** — must be "Publish It"
 3. **Schedule via Ayrshare:**
    ```bash
    node scripts/schedule-ayrshare.js <file-path>
@@ -34,7 +34,7 @@ Content must have `status: "Publish it!"` in frontmatter.
 ## Status Flow
 
 ```
-Draft → Review → Publish it! → Scheduled → Published
+Draft → Edit With AI → Ready → Publish It → Scheduled → Published
 ```
 
 ## Supported Platforms
@@ -42,7 +42,7 @@ Draft → Review → Publish it! → Scheduled → Published
 | Platform | Supported |
 |----------|-----------|
 | LinkedIn | Yes |
-| Twitter | Yes |
+| X/Twitter | Yes |
 | Facebook | Yes |
 | Instagram | Yes |
 | TikTok | Yes |
@@ -51,9 +51,9 @@ Draft → Review → Publish it! → Scheduled → Published
 
 ```yaml
 ---
-platform: linkedin
-publish_date: 2025-12-05
-status: "Publish it!"
+platform: LinkedIn
+Publish Date: 2026-02-18
+status: "Publish It"
 ---
 ```
 
@@ -62,5 +62,5 @@ status: "Publish it!"
 ```
 Scheduled: [platform] post for [date/time]
 Ayrshare ID: [id]
-Status updated: "Publish it!" → "Scheduled"
+Status updated: "Publish It" → "Scheduled"
 ```

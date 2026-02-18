@@ -91,7 +91,7 @@ fileClass: content
 title: [Title]
 platform: instagram
 type: caption
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - tag1

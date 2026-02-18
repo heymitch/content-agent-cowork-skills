@@ -13,7 +13,11 @@ Check config.md for `- [x] Voice Training completed`.
 
 ### 3. Notion Check (Silent)
 Check for Notion MCP tools in your available tools.
-- If found: Will save to Notion after local save. Update config.md `- [x] Notion connected` if unchecked.
+- If found:
+  - Read config.md for `content_calendar_datasource` under `## Notion`
+  - If datasource URL exists: Will save to Notion Content Calendar after local save
+  - If no datasource URL: Search for "Content Calendar" database via `notion-search`, save reference to config.md
+  - Update `- [x] Notion connected` in config.md if unchecked
 - If not found: Save locally to `content/` directory. Don't mention Notion.
 
 ### 4. All clear — proceed without announcing.

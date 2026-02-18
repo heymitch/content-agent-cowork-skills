@@ -191,7 +191,7 @@ Each daily Twitter singles doc should contain:
 title: Twitter Singles - [Date]
 platform: twitter
 type: singles
-Publish_Date: [Date]
+Publish Date: [Date]
 ---
 
 # Twitter Singles - [Day, Date]
@@ -287,7 +287,7 @@ After all tasks complete:
 2. Run `/quality:full-pipeline` on any scoring <85
 3. Spot-check Twitter singles for voice consistency
 4. Review YouTube outlines for technical accuracy
-5. Change status to "Publish it!" when ready
+5. Change status to "Publish It" when ready
 
 ## Key Behaviors
 

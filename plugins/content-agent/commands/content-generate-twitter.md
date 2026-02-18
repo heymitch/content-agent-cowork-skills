@@ -82,7 +82,7 @@ fileClass: content
 title: [Topic]
 platform: twitter
 type: posts
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - tag1

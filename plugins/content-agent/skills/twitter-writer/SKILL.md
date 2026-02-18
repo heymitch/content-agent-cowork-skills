@@ -96,7 +96,7 @@ fileClass: content
 title: [Topic]
 platform: twitter
 type: posts
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - tag1
@@ -179,7 +179,7 @@ fileClass: content
 title: [Thread Title]
 platform: twitter
 type: thread
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - tag1
@@ -286,7 +286,7 @@ fileClass: content
 title: Twitter Singles - [Date]
 platform: twitter
 type: singles-batch
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - [theme-tag]

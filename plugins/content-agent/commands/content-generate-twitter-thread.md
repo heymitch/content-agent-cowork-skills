@@ -90,7 +90,7 @@ fileClass: content
 title: [Thread Title]
 platform: twitter
 type: thread
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - tag1

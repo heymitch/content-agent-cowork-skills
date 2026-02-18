@@ -98,11 +98,13 @@ async function getTrainingCandidates(platformFilter = null) {
     const props = page.properties;
     return {
       id: page.id,
-      title: props.Title?.title?.[0]?.text?.content || 'Untitled',
+      title: props.Hook?.title?.[0]?.text?.content || 'Untitled',
       content: props.Content?.rich_text?.[0]?.text?.content || '',
       platform: props.Platform?.select?.name || 'unknown',
-      engagement: props['Engagement Score']?.number || 0,
-      publishedDate: props['Published Date']?.date?.start || null,
+      engagements: props.Engagements?.number || 0,
+      engagementRate: props['Engagement Rate']?.number || 0,
+      likes: props.Likes?.number || 0,
+      publishedDate: props['Publish Date']?.date?.start || null,
       tags: props.Tags?.multi_select?.map(t => t.name) || [],
       url: page.url,
     };
@@ -124,8 +126,8 @@ function slugify(title) {
  * Save post as markdown file
  */
 function saveAsMarkdown(post, dryRun = false) {
-  const platform = post.platform.toLowerCase();
-  const subdir = post.engagement > 500 ? 'high-performers' : 'recent';
+  const platform = post.platform.toLowerCase().replace('x/', '');
+  const subdir = post.engagements > 500 ? 'high-performers' : 'recent';
   const dir = join(TRAINING_DIR, platform, subdir);
   const slug = slugify(post.title);
   const filename = `${slug}.md`;
@@ -134,7 +136,9 @@ function saveAsMarkdown(post, dryRun = false) {
   const frontmatter = `---
 title: "${post.title.replace(/"/g, '\\"')}"
 platform: ${post.platform}
-engagement: ${post.engagement}
+engagements: ${post.engagements}
+engagement_rate: ${post.engagementRate}
+likes: ${post.likes}
 date: "${post.publishedDate || new Date().toISOString().split('T')[0]}"
 tags: [${post.tags.map(t => `"${t}"`).join(', ')}]
 notion_id: "${post.id}"

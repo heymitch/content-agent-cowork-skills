@@ -124,7 +124,7 @@ Next steps:
 # 6. Re-check scores
 /quality:check-gptzero [file]
 
-# 7. When scores are acceptable, change status to "Publish it!"
+# 7. When scores are acceptable, change status to "Publish It"
 ```
 
 ## API Requirements

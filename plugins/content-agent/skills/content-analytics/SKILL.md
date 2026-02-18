@@ -38,9 +38,11 @@ Track what you're creating, what's publishing, and what's performing.
 ## Publishing Status
 | Status | Count |
 |--------|-------|
+| Not started |  |
 | Draft  |       |
-| Review |       |
-| Publish it! |  |
+| Edit With AI | |
+| Ready  |       |
+| Publish It |   |
 | Scheduled |    |
 | Published |    |
 

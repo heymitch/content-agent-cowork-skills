@@ -1,5 +1,5 @@
 ---
-description: Schedule content to Ayrshare for auto-publishing (only sends if status is "Publish it!")
+description: Schedule content to Ayrshare for auto-publishing (only sends if status is "Publish It")
 ---
 
 # Schedule to Ayrshare
@@ -16,19 +16,19 @@ Read .env and check for AYRSHARE_API_KEY
 - **If found:** Continue. Update config.md `- [x] Ayrshare connected` if not already checked.
 
 ### 2. Check content status
-- Content must have `status: "Publish it!"` in frontmatter
+- Content must have `status: "Publish It"` in frontmatter
 - If status is anything else, inform user and show how to update
 
 ## Your Task
 
-Schedule approved content to Ayrshare for automatic publishing at the specified `publish_date`.
+Schedule approved content to Ayrshare for automatic publishing at the specified `Publish Date`.
 
-**IMPORTANT**: Content is ONLY sent if `status: "Publish it!"` in the frontmatter.
+**IMPORTANT**: Content is ONLY sent if `status: "Publish It"` in the frontmatter.
 
 ## How It Works
 
-1. Check file has `status: "Publish it!"`
-2. Read `publish_date` for when to publish
+1. Check file has `status: "Publish It"`
+2. Read `Publish Date` for when to publish
 3. Send content + schedule to Ayrshare API
 4. Update status to "Scheduled"
 5. Add `ayrshare_id` to frontmatter for tracking
@@ -46,13 +46,13 @@ Schedule approved content to Ayrshare for automatic publishing at the specified 
 
 3. **Handle Result**:
    - Success: Report scheduled time and Ayrshare ID
-   - Skipped: Status wasn't "Publish it!" - inform user
+   - Skipped: Status wasn't "Publish It" - inform user
    - Error: Report the issue
 
 ## Status Flow
 
 ```
-Draft → Review → Publish it! → [this command] → Scheduled → [Ayrshare posts] → Published
+Draft → Edit With AI → Ready → Publish It → [this command] → Scheduled → [Ayrshare posts] → Published
 ```
 
 ## Required Frontmatter
@@ -62,9 +62,9 @@ For the script to work, content must have:
 ```yaml
 ---
 title: "Post Title"
-platform: linkedin  # linkedin, twitter, instagram, facebook, tiktok
-publish_date: 2025-12-05  # When to publish
-status: "Publish it!"     # REQUIRED - triggers the publish
+platform: LinkedIn  # LinkedIn, X/Twitter, Instagram, Facebook, TikTok
+Publish Date: 2026-02-18  # When to publish
+status: "Publish It"      # REQUIRED - triggers the publish
 ---
 ```
 
@@ -72,12 +72,12 @@ status: "Publish it!"     # REQUIRED - triggers the publish
 
 **Schedule specific file:**
 ```
-/publish:schedule-ayrshare content/2026-02/12/li-ai-tips.md
+/publish:schedule-ayrshare content/2026-02/12/linkedin-ai-tips.md
 ```
 
 **Schedule with custom time (default is 9:00 AM):**
 ```
-/publish:schedule-ayrshare content/2026-02/12/li-ai-tips.md 14:30
+/publish:schedule-ayrshare content/2026-02/12/linkedin-ai-tips.md 14:30
 ```
 
 ## Output Format
@@ -94,7 +94,7 @@ status: "Publish it!"     # REQUIRED - triggers the publish
 | Scheduled For | [datetime] |
 | Ayrshare ID | [id] |
 
-Status updated: "Publish it!" → "Scheduled"
+Status updated: "Publish It" → "Scheduled"
 
 ## What Happens Next
 
@@ -107,10 +107,10 @@ Status updated: "Publish it!" → "Scheduled"
 
 | Platform | Ayrshare Support |
 |----------|-----------------|
-| linkedin | Yes |
-| twitter | Yes |
-| facebook | Yes |
-| instagram | Yes |
-| tiktok | Yes |
+| LinkedIn | Yes |
+| X/Twitter | Yes |
+| Facebook | Yes |
+| Instagram | Yes |
+| TikTok | Yes |
 
 Now provide the file path to schedule, or confirm to use the most recently generated content.

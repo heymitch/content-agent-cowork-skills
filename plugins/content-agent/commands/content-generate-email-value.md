@@ -99,7 +99,7 @@ fileClass: content
 title: [Email Topic]
 platform: email
 type: value
-Publish_Date: YYYY-MM-DD
+Publish Date: YYYY-MM-DD
 status: Draft
 tags:
   - tag1

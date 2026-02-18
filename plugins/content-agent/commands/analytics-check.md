@@ -56,9 +56,11 @@ Grep: status: in content/
 ```
 
 Count by status:
+- Not started
 - Draft
-- Review
-- Approved / "Publish it!"
+- Edit With AI
+- Ready
+- Publish It
 - Scheduled
 - Published
 

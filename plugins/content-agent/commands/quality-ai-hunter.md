@@ -387,7 +387,7 @@ Here's a similar pattern from training content:
 # Re-check to verify improvements
 /quality:ai-hunter [file]
 
-# When ready, change status to "Publish it!"
+# When ready, change status to "Publish It"
 ```
 
 ## Tips for Best Results

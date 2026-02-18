@@ -169,7 +169,7 @@ Return structured results:
 **Next Steps**:
 1. Review for personal touches
 2. Run /quality:full-pipeline for external check
-3. Change status to "Publish it!" when ready
+3. Change status to "Publish It" when ready
 ```
 
 ## Progress Reporting

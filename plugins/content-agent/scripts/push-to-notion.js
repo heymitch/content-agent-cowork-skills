@@ -131,7 +131,7 @@ async function pushToNotion({ title, content, platform, tags = [] }) {
   const blocks = contentToBlocks(content);
 
   const properties = {
-    Title: {
+    Hook: {
       title: [{ text: { content: title } }],
     },
     Content: {
@@ -141,7 +141,7 @@ async function pushToNotion({ title, content, platform, tags = [] }) {
       select: { name: platform },
     },
     Status: {
-      select: { name: 'Review' },
+      select: { name: 'Draft' },
     },
   };
 
@@ -210,7 +210,7 @@ Options:
   -t, --title     Post title (required)
   -c, --content   Content string
   -f, --file      Read content from file
-  -p, --platform  Platform: LinkedIn, Twitter, Email (default: LinkedIn)
+  -p, --platform  Platform: LinkedIn, X/Twitter, Instagram, Email, Bluesky, YouTube, TikTok, Substack, Facebook (default: LinkedIn)
   --tags          Tags (can specify multiple)
   -h, --help      Show this help
 
@@ -250,7 +250,7 @@ Environment:
     console.log(`\n✅ Pushed to Notion`);
     console.log(`   Title: ${result.title}`);
     console.log(`   Platform: ${result.platform}`);
-    console.log(`   Status: Review`);
+    console.log(`   Status: Draft`);
     console.log(`   URL: ${result.url}`);
   } catch (error) {
     console.error('Error:', error.message);

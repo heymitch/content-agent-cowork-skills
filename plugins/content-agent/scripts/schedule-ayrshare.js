@@ -3,12 +3,12 @@
 /**
  * Schedule content to Ayrshare for auto-publishing
  *
- * ONLY sends if status is "Publish it!" - otherwise exits silently
+ * ONLY sends if status is "Publish It" - otherwise exits silently
  * Designed to be triggered from Obsidian via QuickAdd/Templater
  *
  * Usage: node scripts/schedule-ayrshare.js <file-path> [publish-datetime]
  *
- * If no datetime provided, uses publish_date from frontmatter
+ * If no datetime provided, uses "Publish Date" from frontmatter
  * Datetime format: YYYY-MM-DD HH:MM (24-hour, defaults to 09:00 if no time)
  */
 
@@ -213,16 +213,16 @@ async function main() {
   const content = fs.readFileSync(absolutePath, 'utf-8');
   const { frontmatter, body } = parseFrontmatter(content);
 
-  // Check status - ONLY proceed if "Publish it!"
+  // Check status - ONLY proceed if "Publish It"
   const status = frontmatter.status;
-  if (status !== 'Publish it!') {
-    console.log(`⏭️  Skipping: status is "${status || 'not set'}" (requires "Publish it!")`);
+  if (status !== 'Publish It') {
+    console.log(`⏭️  Skipping: status is "${status || 'not set'}" (requires "Publish It")`);
     console.log('');
     console.log('---RESULT---');
     console.log(JSON.stringify({
       success: false,
       skipped: true,
-      reason: `Status is "${status || 'not set'}", not "Publish it!"`
+      reason: `Status is "${status || 'not set'}", not "Publish It"`
     }));
     process.exit(0);
   }
@@ -235,9 +235,9 @@ async function main() {
   }
 
   // Get publish date
-  const publishDate = overrideDate || frontmatter.publish_date;
+  const publishDate = overrideDate || frontmatter['Publish Date'] || frontmatter.publish_date || frontmatter.Publish_Date;
   if (!publishDate) {
-    console.error('No publish_date in frontmatter and no date provided as argument');
+    console.error('No "Publish Date" in frontmatter and no date provided as argument');
     process.exit(1);
   }
 
@@ -274,7 +274,7 @@ async function main() {
 
     // Update status to "Scheduled"
     const updatedContent = fs.readFileSync(absolutePath, 'utf-8');
-    const newContent = updatedContent.replace(/status:\s*["']?Publish it!["']?/, 'status: "Scheduled"');
+    const newContent = updatedContent.replace(/status:\s*["']?Publish It["']?/, 'status: "Scheduled"');
     fs.writeFileSync(absolutePath, newContent);
 
     console.log('✅ Successfully scheduled!');
