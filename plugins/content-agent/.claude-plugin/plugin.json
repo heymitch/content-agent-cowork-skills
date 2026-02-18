@@ -1,0 +1,23 @@
+{
+  "name": "content-agent",
+  "version": "1.0.0",
+  "description": "Voice-matched content creation across 14 platforms. 4 agents, 50 commands, 15 skills.",
+  "author": {
+    "name": "Mitch Harris & Nicolas Cole",
+    "url": "https://github.com/heymitch"
+  },
+  "homepage": "https://github.com/heymitch/content-agent-cowork-skills",
+  "license": "PROPRIETARY",
+  "keywords": [
+    "content-creation",
+    "voice-matching",
+    "linkedin",
+    "twitter",
+    "instagram",
+    "bluesky",
+    "email",
+    "video",
+    "ai-detection",
+    "quality-pipeline"
+  ]
+}

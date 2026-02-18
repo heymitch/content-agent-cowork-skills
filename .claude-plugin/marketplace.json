@@ -1,0 +1,33 @@
+{
+  "name": "cowork-content-marketplace",
+  "owner": {
+    "name": "Mitch Harris & Nicolas Cole",
+    "url": "https://github.com/heymitch"
+  },
+  "metadata": {
+    "description": "AI Content Agent — Voice-matched content creation skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "content-agent",
+      "description": "Voice-matched content creation across 14 platforms. 4 agents, 50 commands, 15 skills with 5-layer prompt stacking and 127 anti-AI-detection rules. By Mitch Harris & Nicolas Cole.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mitch Harris & Nicolas Cole",
+        "url": "https://github.com/heymitch"
+      },
+      "homepage": "https://github.com/heymitch/content-agent-cowork-skills",
+      "tags": [
+        "content-creation",
+        "voice-matching",
+        "linkedin",
+        "twitter",
+        "ai-detection",
+        "quality-pipeline",
+        "social-media"
+      ],
+      "source": "./plugins/content-agent"
+    }
+  ]
+}
