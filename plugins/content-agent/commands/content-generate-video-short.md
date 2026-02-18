@@ -1,4 +1,3 @@
-<!-- DEPRECATED: This command file's logic has been absorbed into skills/video-writer/SKILL.md -->
 ---
 description: Generate short-form video script (30-90 seconds) for TikTok, Reels, Shorts, or LinkedIn
 ---

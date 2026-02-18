@@ -1,4 +1,3 @@
-<!-- DEPRECATED: This command file's logic has been absorbed into skills/batch/SKILL.md -->
 ---
 description: Extract insights from a meeting transcript and generate content ideas and drafts
 ---

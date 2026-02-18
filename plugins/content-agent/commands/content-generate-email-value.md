@@ -1,4 +1,3 @@
-<!-- DEPRECATED: This command file's logic has been absorbed into skills/email-writer/SKILL.md -->
 ---
 description: Generate a value-building email that educates and builds goodwill (400-500 words)
 ---

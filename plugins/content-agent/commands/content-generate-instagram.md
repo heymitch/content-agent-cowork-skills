@@ -1,4 +1,3 @@
-<!-- DEPRECATED: This command file's logic has been absorbed into skills/instagram-writer/SKILL.md -->
 ---
 description: Generate an Instagram caption (≤2,200 chars) optimized for mobile and engagement
 ---

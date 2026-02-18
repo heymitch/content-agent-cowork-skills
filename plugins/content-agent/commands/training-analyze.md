@@ -1,3 +1,7 @@
+---
+description: Analyze patterns in your training examples to understand what works
+---
+
 # Training Analyze
 
 Analyze patterns in your training examples to understand what works.

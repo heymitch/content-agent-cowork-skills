@@ -1,4 +1,3 @@
-<!-- DEPRECATED: This command file's logic has been absorbed into skills/bluesky-writer/SKILL.md -->
 ---
 description: Generate Bluesky posts (≤300 chars) using proven short-form formats
 ---

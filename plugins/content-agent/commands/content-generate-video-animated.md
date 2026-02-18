@@ -1,4 +1,3 @@
-<!-- DEPRECATED: This command file's logic has been absorbed into skills/video-writer/SKILL.md -->
 ---
 description: Generate animated video clips (quote cards, stat highlights, hooks) using Remotion - no API key needed
 ---

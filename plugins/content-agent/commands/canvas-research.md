@@ -1,3 +1,7 @@
+---
+description: Research Canvas
+---
+
 # Research Canvas
 
 Create a visual research board by searching the web and organizing findings into an Obsidian canvas.

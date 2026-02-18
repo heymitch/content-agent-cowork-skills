@@ -1,3 +1,7 @@
+---
+description: Generate Weekly Strategy Canvas
+---
+
 # Generate Weekly Strategy Canvas
 
 Create a visual weekly content planning canvas in Obsidian.

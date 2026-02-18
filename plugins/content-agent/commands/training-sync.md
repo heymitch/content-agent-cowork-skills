@@ -1,3 +1,7 @@
+---
+description: Pull winning content from Notion to local training examples
+---
+
 # Training Sync
 
 Pull winning content from Notion to local training examples.

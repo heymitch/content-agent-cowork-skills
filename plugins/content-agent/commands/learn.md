@@ -1,3 +1,7 @@
+---
+description: Interactive curriculum delivery
+---
+
 # Learn Mode
 
 Interactive curriculum delivery. You become the instructor.

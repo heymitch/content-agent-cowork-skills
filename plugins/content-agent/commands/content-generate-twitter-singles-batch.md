@@ -1,4 +1,3 @@
-<!-- DEPRECATED: This command file's logic has been absorbed into skills/twitter-writer/SKILL.md -->
 ---
 description: Generate a daily batch of 10 Twitter/X singles (shitposts, hot takes, tips, observations)
 ---

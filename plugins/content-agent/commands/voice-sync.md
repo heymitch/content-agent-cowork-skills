@@ -1,3 +1,7 @@
+---
+description: Sync voice profile to CLAUDE.md from the best available source
+---
+
 # Voice Sync
 
 Sync user's voice profile to CLAUDE.md from the best available source.

@@ -1,4 +1,3 @@
-<!-- DEPRECATED: This command file's logic has been absorbed into skills/twitter-writer/SKILL.md -->
 ---
 description: Generate Twitter/X thread (5-12 connected posts) with hook-driven structure
 ---

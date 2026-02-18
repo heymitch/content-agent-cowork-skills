@@ -1,4 +1,7 @@
-<!-- DEPRECATED: This command file's logic has been absorbed into skills/image-generator/SKILL.md -->
+---
+description: Generate a meme using the Imgflip API
+---
+
 # Generate Meme
 
 Generate a meme using the Imgflip API.

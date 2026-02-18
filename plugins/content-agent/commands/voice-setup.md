@@ -1,3 +1,7 @@
+---
+description: Run the Curiosity Pattern interview to capture your authentic voice
+---
+
 # Voice Setup
 
 Run the Curiosity Pattern interview to capture the user's authentic voice.
