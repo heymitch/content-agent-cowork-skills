@@ -1,3 +1,4 @@
+<!-- DEPRECATED: This command file's logic has been absorbed into skills/linkedin-writer/SKILL.md -->
 ---
 description: Generate a LinkedIn carousel (3-10 slides) via Gamma API with brand styling
 ---

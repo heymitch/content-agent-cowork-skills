@@ -1,3 +1,4 @@
+<!-- DEPRECATED: This command file's logic has been absorbed into skills/linkedin-writer/SKILL.md -->
 ---
 description: Generate a thought leadership LinkedIn post (≤2,800 chars) with proven formatting
 ---

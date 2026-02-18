@@ -1,3 +1,4 @@
+<!-- DEPRECATED: This command file's logic has been absorbed into skills/image-generator/SKILL.md -->
 ---
 description: Generate a single image for social media posts using AI (Gemini Image or design-studio)
 ---

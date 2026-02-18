@@ -1,3 +1,4 @@
+<!-- DEPRECATED: This command file's logic has been absorbed into skills/twitter-writer/SKILL.md -->
 ---
 description: Generate Twitter/X single posts (≤280 chars) using proven short-form formats
 ---

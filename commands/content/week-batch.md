@@ -1,3 +1,4 @@
+<!-- DEPRECATED: This command file's logic has been absorbed into skills/batch/SKILL.md -->
 ---
 description: Plan and generate a full week of content with research, context gathering, and parallel batch creation
 ---

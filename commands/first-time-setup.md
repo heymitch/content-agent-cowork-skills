@@ -57,6 +57,34 @@ Then follow the instructions in the voice/setup command — run the full Curiosi
 
 ---
 
+## Step 3.5: Content Preferences
+
+After voice training, before checking connectors:
+
+"One more thing — how do you like to work with content?
+
+A) **Autopilot** — Give me a topic, I handle everything and deliver a finished post
+B) **Co-write** — I propose hooks and drafts, you steer the direction
+C) **Step-by-step** — We build each post together: hook → outline → draft → polish
+
+Most people start with Autopilot and switch to Co-write once they see how it works."
+
+Save choice as `default_mode` in config.md → `## Content Preferences` → `### How I Work`.
+
+Then ask:
+
+"Which platforms do you publish on? (Check all that apply)"
+- LinkedIn
+- Twitter/X
+- Email/Newsletter
+- Video (TikTok, Shorts, Reels)
+- Instagram
+- Bluesky
+
+Save checked platforms to config.md → `## Content Preferences` → `### Active Platforms`. Mark selected ones with `[x]`, unselected with `[ ]`.
+
+---
+
 ## Step 4: Connector Check
 
 After voice training, silently check what's available:
