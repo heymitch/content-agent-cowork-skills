@@ -6,12 +6,12 @@ description: Generate Twitter/X thread (5-12 connected posts) with hook-driven s
 
 You are now in Twitter/X thread generation mode.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## Loaded Prompt Stack
-{{file:.claude/prompts/stacks/twitter-full.md}}
+{{file:prompts/stacks/twitter-full.md}}
 
 ## Your Task
 
@@ -40,7 +40,7 @@ Post 12: CTA (what to do next)
 
 ### Process
 
-{{file:.claude/commands/_shared/mentor-consulting.md}}
+{{file:commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with `twitter` and add `structure` focus when running mentor consulting.
 
@@ -59,7 +59,7 @@ Replace `{{platform}}` with `twitter` and add `structure` focus when running men
 4. **Quality Check**:
    - Count characters for each post (must be ≤280)
    - Verify flow between posts
-   - Scan for AI detection patterns (see `{{file:.claude/commands/_shared/quality-patterns.md}}`)
+   - Scan for AI detection patterns (see `{{file:commands/_shared/quality-patterns.md}}`)
    - Check hook strength
 
 5. **Save & Deliver**:
@@ -80,7 +80,7 @@ Replace `{{platform}}` with `twitter` and add `structure` focus when running men
 
 ## Output Format
 
-{{file:.claude/commands/_shared/output-frontmatter.md}}
+{{file:commands/_shared/output-frontmatter.md}}
 
 Use `platform: twitter` and `type: thread` in frontmatter.
 
@@ -118,6 +118,6 @@ X/ [CTA - follow/reply/retweet/link]
 - Post all at once or space 1-2 minutes apart
 - Reply to first post with rest of thread
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}
 
 Now ask the user for their topic and thread preferences.

@@ -6,9 +6,9 @@ description: Generate a LinkedIn carousel (3-10 slides) via Gamma API with brand
 
 You are now in carousel generation mode.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## Loaded Skills
 {{file:skills/gamma-api.md}}
@@ -162,7 +162,7 @@ tags:
 - Generated: [timestamp]
 ```
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}
 
 ## Quick Start
 

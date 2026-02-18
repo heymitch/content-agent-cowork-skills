@@ -6,12 +6,12 @@ description: Generate a value-building email that educates and builds goodwill (
 
 You are now in email content generation mode (Value Email type).
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## Loaded Prompt Stack
-{{file:.claude/prompts/stacks/email-full.md}}
+{{file:prompts/stacks/email-full.md}}
 
 ## Your Task
 
@@ -52,7 +52,7 @@ Generate a value-building email that educates and engages without direct selling
 
 ### Process
 
-{{file:.claude/commands/_shared/mentor-consulting.md}}
+{{file:commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with `email` when running mentor consulting.
 
@@ -71,7 +71,7 @@ Replace `{{platform}}` with `email` when running mentor consulting.
 4. **Quality Check**:
    - Verify one sentence per line
    - Check word count (400-500)
-   - Scan for AI detection patterns (see `{{file:.claude/commands/_shared/quality-patterns.md}}`)
+   - Scan for AI detection patterns (see `{{file:commands/_shared/quality-patterns.md}}`)
    - Verify depth over breadth
 
 5. **Save & Deliver**:
@@ -89,7 +89,7 @@ Focus on the one-click publishing feature.
 
 ## Output Format
 
-{{file:.claude/commands/_shared/output-frontmatter.md}}
+{{file:commands/_shared/output-frontmatter.md}}
 
 Use `platform: email` and `type: value` in frontmatter.
 
@@ -116,6 +116,6 @@ gptzero_score:
 [Complete email body with one sentence per line formatting]
 ```
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}
 
 Now ask the user for their topic and context.

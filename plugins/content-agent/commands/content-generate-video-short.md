@@ -6,12 +6,12 @@ description: Generate short-form video script (30-90 seconds) for TikTok, Reels,
 
 You are now in video script generation mode.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## Loaded Prompt Stack
-{{file:.claude/prompts/stacks/video-short-full.md}}
+{{file:prompts/stacks/video-short-full.md}}
 
 ## Your Task
 
@@ -42,7 +42,7 @@ Generate a short-form video script (30-90 seconds) based on the user's topic or 
 
 ### Process
 
-{{file:.claude/commands/_shared/mentor-consulting.md}}
+{{file:commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with `video` and add `hooks` focus when running mentor consulting.
 
@@ -62,7 +62,7 @@ Replace `{{platform}}` with `video` and add `hooks` focus when running mentor co
 4. **Quality Check**:
    - Verify hook is in first 3 seconds
    - Check pacing matches duration
-   - Scan for AI detection patterns (see `{{file:.claude/commands/_shared/quality-patterns.md}}`)
+   - Scan for AI detection patterns (see `{{file:commands/_shared/quality-patterns.md}}`)
    - Ensure platform optimization
 
 5. **Save & Deliver**:
@@ -85,7 +85,7 @@ Platform: LinkedIn, Duration: 90s
 
 ## Output Format
 
-{{file:.claude/commands/_shared/output-frontmatter.md}}
+{{file:commands/_shared/output-frontmatter.md}}
 
 Use `platform: video` and `type: short` in frontmatter.
 
@@ -133,6 +133,6 @@ gptzero_score:
 - Use jump cuts to maintain pace
 - Add captions for accessibility
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}
 
 Now ask the user for their topic, platform, and duration.

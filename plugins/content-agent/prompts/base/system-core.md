@@ -68,9 +68,9 @@ Before any content generation, review and apply AI detection prevention rules:
 ## Integration with Other Prompts
 
 This system prompt is designed to work with:
-- **Brand prompts**: Load via `{{file:.claude/prompts/brand/...}}`
-- **Platform prompts**: Load via `{{file:.claude/prompts/platform/...}}`
-- **Framework prompts**: Load via `{{file:.claude/prompts/frameworks/...}}`
+- **Brand prompts**: Load via `{{file:prompts/brand/...}}`
+- **Platform prompts**: Load via `{{file:prompts/platform/...}}`
+- **Framework prompts**: Load via `{{file:prompts/frameworks/...}}`
 - **Custom prompts**: Attach via `@` mention at runtime
 
 ## Error Handling

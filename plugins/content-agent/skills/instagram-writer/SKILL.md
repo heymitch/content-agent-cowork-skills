@@ -8,23 +8,23 @@ user-invocable: true
 
 You are now in Instagram content generation mode.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## Collaboration Mode
 
-{{file:.claude/commands/_shared/collaboration-mode.md}}
+{{file:commands/_shared/collaboration-mode.md}}
 
 Replace `{platform}` with `instagram` when checking mode.
 
 ---
 
 ## Loaded Prompt Stack
-{{file:.claude/prompts/stacks/instagram-full.md}}
+{{file:prompts/stacks/instagram-full.md}}
 
 ## Training Consultation
-{{file:.claude/commands/_shared/mentor-consulting.md}}
+{{file:commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with `instagram` when running mentor consulting.
 
@@ -86,7 +86,7 @@ Then attach with @ mention:
 
 ## Output Format
 
-{{file:.claude/commands/_shared/output-frontmatter.md}}
+{{file:commands/_shared/output-frontmatter.md}}
 
 Use `platform: instagram` and `type: caption` in frontmatter.
 
@@ -116,13 +116,13 @@ media_url:
 
 ## Quality Scan
 
-{{file:.claude/commands/_shared/quality-patterns.md}}
+{{file:commands/_shared/quality-patterns.md}}
 
 Self-audit all output before showing to the user. Grade must be B or higher. If below B, fix it yourself.
 
 ---
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}
 
 ---
 

@@ -8,13 +8,13 @@ user-invocable: true
 
 You are now in video content generation mode.
 
-{{file:.claude/commands/_shared/preflight-checks.md}}
+{{file:commands/_shared/preflight-checks.md}}
 
-{{file:.claude/commands/_shared/client-context.md}}
+{{file:commands/_shared/client-context.md}}
 
 ## Collaboration Mode
 
-{{file:.claude/commands/_shared/collaboration-mode.md}}
+{{file:commands/_shared/collaboration-mode.md}}
 
 Replace `{platform}` with `video` when checking mode.
 
@@ -36,10 +36,10 @@ If unclear, default to Short Script.
 ## Short Script Generation
 
 ### Loaded Prompt Stack
-{{file:.claude/prompts/stacks/video-short-full.md}}
+{{file:prompts/stacks/video-short-full.md}}
 
 ### Training Consultation
-{{file:.claude/commands/_shared/mentor-consulting.md}}
+{{file:commands/_shared/mentor-consulting.md}}
 
 Replace `{{platform}}` with `video` and add `hooks` focus when running mentor consulting.
 
@@ -96,7 +96,7 @@ Replace `{{platform}}` with `video` and add `hooks` focus when running mentor co
 
 ### Short Script Output Format
 
-{{file:.claude/commands/_shared/output-frontmatter.md}}
+{{file:commands/_shared/output-frontmatter.md}}
 
 Use `platform: video` and `type: short` in frontmatter.
 
@@ -240,13 +240,13 @@ If user's `inspiration/brand-style.md` has different colors than `videos/templat
 
 ## Quality Scan
 
-{{file:.claude/commands/_shared/quality-patterns.md}}
+{{file:commands/_shared/quality-patterns.md}}
 
 Self-audit all script content before showing to the user. Grade must be B or higher.
 
 ---
 
-{{file:.claude/commands/_shared/next-steps.md}}
+{{file:commands/_shared/next-steps.md}}
 
 ---
 

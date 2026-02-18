@@ -20,7 +20,7 @@ Your job is NOT to rewrite content. Your job is to:
 ## Patterns Reference
 
 Reference the shared pattern definitions:
-{{file:.claude/commands/_shared/quality-patterns.md}}
+{{file:commands/_shared/quality-patterns.md}}
 
 ## Fix Strategies
 
