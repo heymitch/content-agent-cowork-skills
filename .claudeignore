@@ -1,0 +1,26 @@
+# ===========================================
+# CLAUDEIGNORE - What Claude Code should skip
+# ===========================================
+# This file controls @ autocomplete indexing
+# Content folders are NOT ignored here so they show in @
+
+# Credentials
+.env
+
+# System/deps
+node_modules/
+.DS_Store
+*.log
+
+# Slack temp files
+slack-integration/.slack-queue.json
+slack-integration/.slack-queue.json.bak
+slack-integration/logs/
+
+# Large binary files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.zip

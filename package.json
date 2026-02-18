@@ -1,0 +1,29 @@
+{
+  "name": "content-agent",
+  "version": "1.0.0",
+  "description": "Content Agent - AI-powered content creation with quality pipeline and voice matching",
+  "main": "scripts/push-to-notion.js",
+  "scripts": {
+    "push": "node scripts/push-to-notion.js",
+    "sync": "node scripts/sync-training.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "googleapis": "^128.0.0",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "ai",
+    "content",
+    "claude-code",
+    "notion",
+    "linkedin",
+    "cowork"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
